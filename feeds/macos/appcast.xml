@@ -1,9 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>Knowledge Recorder Updates</title>
-    <link>https://raw.githubusercontent.com/shortcutchris/desktop-recorder-releases/main/feeds/macos/appcast.xml</link>
-    <description>Signed macOS updates for Knowledge Recorder.</description>
-    <language>en</language>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Knowledge Recorder Updates</title>
+        <link>https://raw.githubusercontent.com/shortcutchris/desktop-recorder-releases/main/feeds/macos/appcast.xml</link>
+        <description>Signed macOS updates for Knowledge Recorder.</description>
+        <language>en</language>
+        <item>
+            <title>1.1.43</title>
+            <pubDate>Tue, 14 Jul 2026 21:06:20 +0200</pubDate>
+            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.43</link>
+            <sparkle:version>1.1.43</sparkle:version>
+            <sparkle:shortVersionString>1.1.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[Knowledge Recorder 1.1.43 for macOS and Windows.
+
+## macOS
+
+- Native one-click updates now check, download, verify and install through a signed Sparkle feed.
+- Installation waits until meeting recording, dictation, screen capture and pending processing are idle before restarting the app.
+
+## Windows
+
+- Updates now download inside Knowledge Recorder with visible progress, SHA-256 validation and an Authenticode publisher check for BIK GmbH.
+- The verified installer cleanly closes the tray app, installs silently and launches Knowledge Recorder again.
+
+SHA256:
+
+- `4d35b46221e97c95e562d26b36e1d95073ed2b62d0a6b3914bb2d112ec412b92`  `DesktopRecorder-macOS.dmg`
+- `6d06839807947a674209896d1d6a3a44b744ebaa31998abc82cf9e70c6c40a08`  `DesktopRecorder.exe`
+- `54bf1d2bafd1771e9352289a5451150ce7473686479beef5f55f1dfaa3fec1bf`  `DesktopRecorder-Setup.exe`
+]]></description>
+            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.43/DesktopRecorder-macOS.dmg" length="28357904" type="application/octet-stream" sparkle:edSignature="wI1RMu/AxFXaG3mKVnjeDjAZ+PmrX/PINNHAx6iNPvcY2PeBqAuMzOaSDfoVXJK2SrKIQH5I+ghXF1DLznx3BA=="/>
+        </item>
+    </channel>
 </rss>
