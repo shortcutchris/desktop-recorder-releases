@@ -6,6 +6,36 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.46</title>
+            <pubDate>Fri, 17 Jul 2026 11:21:36 +0200</pubDate>
+            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.46</link>
+            <sparkle:version>1.1.46</sparkle:version>
+            <sparkle:shortVersionString>1.1.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[macOS
+
+- Automatic three-second signal test after selecting a meeting or dictation microphone, including the selected device name and clear signal/no-signal feedback.
+- One-click recovery to the system default and a shortcut for using the meeting microphone for dictation.
+- Missing USB, Bluetooth or virtual devices are repaired safely at recording start instead of failing on a stale endpoint.
+- Chat clearing is now visually and textually distinct from recoverable note deletion.
+
+Windows
+
+- Automatic three-second signal test for meeting, dictation and screen-video microphone selectors, verified on Grey Iron with real audio hardware.
+- One-click recovery to the system default plus workflow-specific diagnostics for connected but silent devices.
+- Meeting recording, dictation, chat voice input and screen video now recover safely when a selected endpoint disappears.
+- Chat clearing is now explicitly distinct from notes and recordings that move to the Recycle Bin.
+
+SHA256
+
+- DesktopRecorder-macOS.dmg: `CBDC436CCFCFAD7A8E05B113E8542341E9224FAEC934E0BD99BD0F9AB2FD221F`
+- DesktopRecorder.exe: `273CBB84C18FE467D551D19C098E26CA4289945FBF58A67A5BF22E54B9ABF180`
+- DesktopRecorder-Setup.exe: `1FC9598093A5EEB95057EA5083A112E3E4336F8D2D18869E3F94AF6CB9CD3973`
+]]></description>
+            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.46/DesktopRecorder-macOS.dmg" length="28418619" type="application/octet-stream" sparkle:edSignature="IW50Q+T1xMv2hA31krs53rXsi7GFUoE8jhIEzLrrn04qID2+Lwu5NLflPZ1ViI0rIuch454peFHIRcyjNnm+Ag=="/>
+        </item>
+        <item>
             <title>1.1.43</title>
             <pubDate>Tue, 14 Jul 2026 21:06:20 +0200</pubDate>
             <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.43</link>
