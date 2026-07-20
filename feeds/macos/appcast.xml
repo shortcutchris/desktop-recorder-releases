@@ -6,6 +6,31 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.52</title>
+            <pubDate>Mon, 20 Jul 2026 21:55:31 +0200</pubDate>
+            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.52</link>
+            <sparkle:version>1.1.52</sparkle:version>
+            <sparkle:shortVersionString>1.1.52</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.52
+
+## macOS
+
+- Große Diktatverläufe öffnen jetzt praktisch sofort: Es werden nur die sichtbaren Zeilen erzeugt,
+  und die Audioverfügbarkeit wird einmalig indiziert.
+- Mit 200 gespeicherten Diktaten sank der gemessene Wechsel in den Verlauf von rund 6,7 auf
+  1,1 Sekunden.
+
+## Windows
+
+- Der Diktatverlauf virtualisiert jetzt seine Zeilen innerhalb der festen, scrollbaren Ansicht.
+- Öffnen und Scrollen bleiben auch bei vielen gespeicherten Einträgen flüssig; Layout und Aktionen
+  bleiben unverändert.
+]]></description>
+            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.52/DesktopRecorder-macOS.dmg" length="28403704" type="application/octet-stream"/>
+        </item>
+        <item>
             <title>1.1.46</title>
             <pubDate>Fri, 17 Jul 2026 11:21:36 +0200</pubDate>
             <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.46</link>
