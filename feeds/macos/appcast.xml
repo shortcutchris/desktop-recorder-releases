@@ -6,6 +6,34 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.56</title>
+            <pubDate>Fri, 24 Jul 2026 17:40:27 +0200</pubDate>
+            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.56</link>
+            <sparkle:version>1.1.56</sparkle:version>
+            <sparkle:shortVersionString>1.1.56</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## macOS
+
+- Every action in the recorder widget now has theme-aware hover, pressed, and disabled feedback.
+- Round controls lift subtly on hover and compress on press without shifting the widget layout.
+- The primary record, pause, and stop controls use the same tactile visual language.
+
+## Windows
+
+- The recorder widget and mini player now have smooth hover lift and pressed compression.
+- Dedicated pressed colors, keyboard focus rings, and subdued disabled states improve clarity.
+- Fixed sizing and centered glyphs remain stable in dark and light themes.
+
+SHA256:
+
+- `DesktopRecorder.exe`: `654a09dbe5f14ddd846bbd8fc99b62d2e2b5beac2ab4faff1d9cdab5e0de8f1f`
+- `DesktopRecorder-Setup.exe`: `3f78c065da502bfad29205283bff65cb10200333e80338dc2e9408ab4eb021e1`
+- `DesktopRecorder-macOS.dmg`: `87f9599a723db94f03e02c77eeb978bb03d3cc1e7ae3d2b23d7773667645abf9`
+]]></description>
+            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.56/DesktopRecorder-macOS.dmg" length="28418384" type="application/octet-stream" sparkle:edSignature="+Tql3TbWSOpCLxms7ap4t+3q5gOkV8YwIFf+3m40A8lfb6BFpcTvCfQEcdzTwEqL3q3sMwSfUgwPoX/eEMSRCQ=="/>
+        </item>
+        <item>
             <title>1.1.55</title>
             <pubDate>Fri, 24 Jul 2026 17:10:46 +0200</pubDate>
             <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.55</link>
@@ -53,30 +81,6 @@ SHA256:
 
 ]]></description>
             <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.54/DesktopRecorder-macOS.dmg" length="28407783" type="application/octet-stream" sparkle:edSignature="9dzJfPJ140UQkEBMvtgEp7oQH/9Mi40buJJEqFdcHxWvAAQBH9vPeN12a5IxfHA1O9N/F7PTY+nhDdc+eP6PBw=="/>
-        </item>
-        <item>
-            <title>1.1.53</title>
-            <pubDate>Mon, 20 Jul 2026 22:19:23 +0200</pubDate>
-            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.53</link>
-            <sparkle:version>1.1.53</sparkle:version>
-            <sparkle:shortVersionString>1.1.53</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.53
-
-## macOS
-
-- Der Diktatverlauf nutzt jetzt die gesamte verfügbare Höhe des Einstellungsfensters und endet
-  sauber am unteren Rand des Detailbereichs.
-- In kleinen Fenstern behält die Liste eine sinnvolle Mindesthöhe; die Einstellungsseite bleibt
-  vollständig scrollbar.
-- Die in 1.1.52 eingeführte schnelle, lazy geladene Verlaufsliste bleibt unverändert erhalten.
-
-## Windows
-
-- Gemeinsamer Versionsstand 1.1.53 mit dem bereits in 1.1.52 virtualisierten Diktatverlauf.
-]]></description>
-            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.53/DesktopRecorder-macOS.dmg" length="34513182" type="application/octet-stream" sparkle:edSignature="IGRwLZ6l9vNYZ0ubHCWMXYzpnKa39rvGmdhvl50tnDmwO6e+gNOsuwtnxBte/B17xzYVEQMLYar/FNgVUce5Aw=="/>
         </item>
     </channel>
 </rss>
