@@ -6,6 +6,35 @@
         <description>Signed macOS updates for Knowledge Recorder.</description>
         <language>en</language>
         <item>
+            <title>1.1.55</title>
+            <pubDate>Fri, 24 Jul 2026 17:10:46 +0200</pubDate>
+            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.55</link>
+            <sparkle:version>1.1.55</sparkle:version>
+            <sparkle:shortVersionString>1.1.55</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## macOS
+
+- Choosing **Region**, **Window**, or **Full Screen** from the screenshot or video quick-action
+  menu now only saves the mode.
+- Capture starts with the next explicit click. The named **Screen only** and
+  **Screen + camera** video actions still start immediately.
+
+## Windows
+
+- The recorder widget and mini player now use the same predictable mode-selection behavior.
+- Choosing a screenshot or video mode saves it without starting a capture; the next regular
+  button click executes it.
+
+SHA256:
+
+- `DesktopRecorder.exe`: `4e02f89d152ca6b51d1eb42203858a14b4104903aba036d7a7e516ec42ac0c73`
+- `DesktopRecorder-Setup.exe`: `f1db19aa1400863910f66be568747f598e41bfd5b0661ccb4a3d14c734349326`
+- `DesktopRecorder-macOS.dmg`: `4e278ad2588030e4393e675fd170476ad6b2508c1b7f255765a883c8700ff67f`
+]]></description>
+            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.55/DesktopRecorder-macOS.dmg" length="28408011" type="application/octet-stream" sparkle:edSignature="0/PcFhCvJ5zwjmkh+/J9HyvUHKPnc57Is6R18L74HwZRJVQ99ZEnAT3AJ0hZWtjkjwyOD9mC9RONVw4LN7IWBg=="/>
+        </item>
+        <item>
             <title>1.1.54</title>
             <pubDate>Tue, 21 Jul 2026 20:51:51 +0200</pubDate>
             <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.54</link>
@@ -48,31 +77,6 @@
 - Gemeinsamer Versionsstand 1.1.53 mit dem bereits in 1.1.52 virtualisierten Diktatverlauf.
 ]]></description>
             <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.53/DesktopRecorder-macOS.dmg" length="34513182" type="application/octet-stream" sparkle:edSignature="IGRwLZ6l9vNYZ0ubHCWMXYzpnKa39rvGmdhvl50tnDmwO6e+gNOsuwtnxBte/B17xzYVEQMLYar/FNgVUce5Aw=="/>
-        </item>
-        <item>
-            <title>1.1.52</title>
-            <pubDate>Mon, 20 Jul 2026 21:59:48 +0200</pubDate>
-            <link>https://github.com/shortcutchris/desktop-recorder-releases/releases/tag/v1.1.52</link>
-            <sparkle:version>1.1.52</sparkle:version>
-            <sparkle:shortVersionString>1.1.52</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Knowledge Recorder 1.1.52
-
-## macOS
-
-- Große Diktatverläufe öffnen jetzt praktisch sofort: Es werden nur die sichtbaren Zeilen erzeugt,
-  und die Audioverfügbarkeit wird einmalig indiziert.
-- Mit 200 gespeicherten Diktaten sank der gemessene Wechsel in den Verlauf von rund 6,7 auf
-  1,1 Sekunden.
-
-## Windows
-
-- Der Diktatverlauf virtualisiert jetzt seine Zeilen innerhalb der festen, scrollbaren Ansicht.
-- Öffnen und Scrollen bleiben auch bei vielen gespeicherten Einträgen flüssig; Layout und Aktionen
-  bleiben unverändert.
-]]></description>
-            <enclosure url="https://github.com/shortcutchris/desktop-recorder-releases/releases/download/v1.1.52/DesktopRecorder-macOS.dmg" length="28403704" type="application/octet-stream" sparkle:edSignature="MVIGIQje6C/KAlsoLDTrnDrZxNFGUKd6XliEvA/ieM0siGCPJRTNx6CmoDBn5xDVDzNAxghJWcFF3NlRYuf7Bw=="/>
         </item>
     </channel>
 </rss>
